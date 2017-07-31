@@ -76,6 +76,13 @@
             </resource>
             <resource>
                 <filtering>true</filtering>
+                <directory>services/MyJavaService6/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
                 <directory>services/MyTestDatabase/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
@@ -241,6 +248,7 @@
                                 <source>services/MyJavaService3/src</source>
                                 <source>services/MyJavaService4/src</source>
                                 <source>services/MyJavaService5/src</source>
+                                <source>services/MyJavaService6/src</source>
                                 <source>services/MyTestDatabase/src</source>
                                 <source>services/googleMap/src</source>
                                 <source>services/googleapis/src</source>

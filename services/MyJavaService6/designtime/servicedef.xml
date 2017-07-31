@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="MyJavaService6" class="com.salesvision2_0.myjavaservice6.MyJavaService6" type="JavaService" springFile="MyJavaService6.spring.xml">
+    <dataobjects/>
+</service>

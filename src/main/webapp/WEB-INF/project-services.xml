@@ -9,6 +9,7 @@
     <import resource="classpath:MyJavaService3.spring.xml"/>
     <import resource="classpath:MyJavaService4.spring.xml"/>
     <import resource="classpath:MyJavaService5.spring.xml"/>
+    <import resource="classpath:MyJavaService6.spring.xml"/>
     <import resource="classpath:MyTestDatabase.spring.xml"/>
     <import resource="classpath:googleMap.spring.xml"/>
     <import resource="classpath:googleapis.spring.xml"/>
