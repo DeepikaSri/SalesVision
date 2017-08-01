@@ -1,5 +1,5 @@
 var _WM_APP_PROPERTIES = {
-  "activeTheme" : "neon",
+  "activeTheme" : "vintage",
   "defaultLanguage" : "en",
   "displayName" : "SalesVision",
   "homePage" : "Main",
