@@ -4,6 +4,7 @@ package com.salesvision2_0.myjavaservice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.StringUtils;
 
 //import com.salesvision2_0.myjavaservice.model.*;
 import com.wavemaker.runtime.service.annotations.ExposeToClient;
@@ -18,9 +19,12 @@ public class MyJavaService {
 
     private static final Logger logger=LoggerFactory.getLogger(MyJavaService.class);
 
-    public String sampleJavaOperation(String name) {
+    public String helloService(String name) {
         String result = null;
         try {
+            if (StringUtils.isEmpty(name)) {
+                return null;
+            }
             logger.debug("Starting sample operation");
             result = "Hello " + name + "!";
             logger.debug("Returning {}", result);
