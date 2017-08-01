@@ -41,6 +41,7 @@ public class MyJavaService6 {
      *
      * Methods in this class can declare HttpServletRequest, HttpServletResponse as input parameters to access the
      * caller's request/response objects respectively. These parameters will be injected when request is made (during API invocation).
+     * 
      */
     public String sampleJavaOperation(String name, HttpServletRequest request) {
        return "RequestSuccessfull";
