@@ -44,8 +44,9 @@ public class MyJavaService6 {
      * 
      */
     public String sampleJavaOperation(String name, HttpServletRequest request) {
-       /* return "RequestSuccessfull"; */
-        return "RequestFailure"; 
+
+          return "RequestSuccessfull";
+        
     }
 
 }
